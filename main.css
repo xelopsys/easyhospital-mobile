@@ -49,14 +49,34 @@ body{
 
 .main{
     width: 100%;
-    margin-left: 600px;
+    margin-left: 450px;
+    margin-right: 300px;
 }
 
 .img{
-    border-radius: 400px;
+    width: 90%;
+    height: auto;
+    border-radius: 90%;
 }
 
 .third iframe{
     width: 100%;
     height: 700px;
+}
+
+.second img{
+    width: 600px;
+
+}
+.second{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.second p{
+    text-align: left;
 }
