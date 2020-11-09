@@ -234,3 +234,35 @@ body{
     display: flex;
     margin-right: 15px;
 }
+
+
+@media screen and (max-height: 1000px){
+    .inputt{
+        bottom: 4%;
+    }
+}
+
+
+@media screen and (max-height: 1100px){
+    .inputt{
+        bottom: 7%;
+    }
+}
+
+
+
+@media screen and (max-height: 1200px){
+    .inputt{
+        bottom: 10%;
+    }
+}
+
+
+
+
+
+@media screen and (max-height: 1300px){
+    .inputt{
+        bottom: 15%;
+    }
+}
