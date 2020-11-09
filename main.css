@@ -238,14 +238,14 @@ body{
 
 @media screen and (max-height: 1000px){
     .inputt{
-        bottom: 4%;
+        bottom: 2%;
     }
 }
 
 
 @media screen and (max-height: 1100px){
     .inputt{
-        bottom: 7%;
+        bottom: 5%;
     }
 }
 
@@ -253,7 +253,7 @@ body{
 
 @media screen and (max-height: 1200px){
     .inputt{
-        bottom: 10%;
+        bottom: 8%;
     }
 }
 
@@ -263,6 +263,6 @@ body{
 
 @media screen and (max-height: 1300px){
     .inputt{
-        bottom: 15%;
+        bottom: 11%;
     }
 }
