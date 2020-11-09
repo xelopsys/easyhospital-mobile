@@ -64,8 +64,8 @@ body{
     width: 600px;
     height: 600px;
     scroll-behavior: smooth;
-    overflow-y: scroll;
-    overflow: scroll;
+    overflow-x: scroll;
+
 
 }
 .coll{
@@ -156,8 +156,10 @@ body{
 
 .inputt{
 
-    position: fixed;
-    bottom: 293px;
+
+    z-index: 999;
+    position: absolute;
+    bottom: 294px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,6 +177,7 @@ body{
 }
 
 .ul li{
+    z-index: -1;
     text-decoration: none;
     text-align: right;
     list-style: none;
@@ -189,6 +192,7 @@ body{
     margin-right: 10px;
 }
 .ul{
+    z-index: -1;
     display: grid;
     flex-direction: column;
     flex-wrap: wrap;
